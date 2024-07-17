@@ -1,0 +1,144 @@
+* {
+    font-family: Inter;
+}
+
+/* sheard related styes */
+
+.disply-flex {
+    display: flex;
+}
+
+.main {
+    position: absolute;
+    width: 1440px;
+    height: 715px;
+    left: 0;
+    top: 0;
+}
+
+/* button styles */
+
+
+/* body color styles */
+.primary-bg {
+    background-color: rgb(5, 1, 1);
+}
+
+/* navbar related styles */
+.container {
+    margin: 57px 190px;
+}
+
+.website-name {
+    color: rgb(230, 83, 60);
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin: 0px 10px;
+}
+
+.navbar {
+    justify-content: space-between;
+    order: 1;
+    flex-grow: 0;
+}
+
+.list-item {
+    list-style: none;
+}
+
+
+.nav-items {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 465px;
+    height: 46px;
+    align-items: center;
+    padding: 4px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.btn-style {
+    width: 92px;
+    height: 38px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    background: rgb(230, 83, 60);
+    padding: 8px 14px 8px 14px;
+}
+
+
+/* nav banner styles */
+
+.banner {
+    border: 1px solid aqua;
+    margin-left: 190px;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+    margin-top: 0px;
+    margin: 0px;
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    ine-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 28px;
+}
+
+.banner-containt {
+    border: 1px solid turquoise;
+    margin-right: 650.95px;
+    width: 599.05px;
+    height: 440px;
+    left: 190px;
+    top: 199px;
+
+}
+
+
+/* button styles */
+button a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 14px;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.join-club {
+    color: rgb(255, 255, 255);
+}
+
+
+img {
+    /* Images 2 */
+    position: absolute;
+    width: 349px;
+    height: 580px;
+    left: 877px;
+    top: 135px;
+}
